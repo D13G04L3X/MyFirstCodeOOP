@@ -11,7 +11,7 @@ namespace MyFirstCodeOOP
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public Date BirthDate { get; set; }
+        public Date BirthDate { get; set; }                 //setea los valores que se ingresan como fecha
         public Date HiringDate { get; set; }                // Fecha de contratación
         public bool IsActive { get; set; }
 
