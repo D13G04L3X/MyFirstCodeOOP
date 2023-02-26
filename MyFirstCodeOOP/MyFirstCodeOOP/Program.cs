@@ -103,6 +103,7 @@ namespace MyFirstCodeOOP
                 //Console.WriteLine(commissionEmployee);
 
                 Console.WriteLine("");
+
                 Console.WriteLine("***********************");
                 Console.WriteLine("* CONTRACTOR EMPLOYEE *");
                 Console.WriteLine("***********************");
