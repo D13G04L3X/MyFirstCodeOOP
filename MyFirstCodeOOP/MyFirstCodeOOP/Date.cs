@@ -4,7 +4,7 @@ namespace MyFirstCodeOOP
 {
     public class Date
     {
-        #region Properties
+        #region Fields
 
         public int _year;                               //Para crear las propiedades usar (_)
         public int _month;

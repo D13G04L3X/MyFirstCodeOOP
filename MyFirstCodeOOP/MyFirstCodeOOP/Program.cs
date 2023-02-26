@@ -11,8 +11,23 @@ namespace MyFirstCodeOOP
         {
             try
             {
-                var dateObject = new Date(2002, 12, 3);                    //Notipado de C#, para saber el tipo de dato que recibe la variable, aparte necesita el número de variables que debo traer
-                Console.WriteLine(dateObject);
+                //Date dateObject = new Date(2023, 2, 29);
+                Console.WriteLine("****************");
+                Console.WriteLine("* OOP CONCEPTS *");
+                Console.WriteLine("****************");
+
+                Console.WriteLine("Please put your birth date year:");
+                var year = Console.ReadLine();
+                Console.WriteLine("");
+                Console.WriteLine("Please put your birth date month:");
+                var month = Console.ReadLine();
+                Console.WriteLine("");
+                Console.WriteLine("Please put your birth date day:");
+                var day = Console.ReadLine();
+                Console.WriteLine("");
+                Console.WriteLine(new Date(Convert.ToInt32(year), Convert.ToInt32(month), Convert.ToInt32(day)));
+                Console.WriteLine("");
+
             }
             catch (Exception ex)
             {
