@@ -21,7 +21,7 @@ namespace MyFirstCodeOOP
 
         public override string ToString()
         {
-            return $"---EMPLOYEE---\n\t " +                      //Son saltos de línea
+            return $"------EMPLOYEE------\n\t " +                      //Son saltos de línea
                 $"ID: {Id} \n\t " +
                 $"FirstName: {FirstName} \n\t " +
                 $"LastName: {LastName} \n\t " +
