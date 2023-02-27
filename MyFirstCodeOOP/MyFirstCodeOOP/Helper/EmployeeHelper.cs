@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System;                       // Se pueden implementar n interfaces
 using System.Collections.Generic;
 using System.Text;
 
@@ -46,7 +46,9 @@ namespace MyFirstCodeOOP.Helper
                     payroll += employee.GetValueToPay();
                 }
             }
+
             return payroll;
+
         }
         #endregion
     }

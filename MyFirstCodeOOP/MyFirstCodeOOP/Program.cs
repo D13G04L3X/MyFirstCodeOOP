@@ -187,6 +187,20 @@ namespace MyFirstCodeOOP
                 
                 Console.WriteLine($"Total Payroll:...........{employeeHelper.GetPayrollFromActiveEmployees():C2}");
 
+                Console.WriteLine("***********");
+                Console.WriteLine("* INVOICE *");
+                Console.WriteLine("***********");
+
+                Invoice invoice = new Invoice()         //Creación del objeto
+                {
+                    Id = 2012015,
+                    Description = "iPhone 13",
+                    Price = 4500000,
+                    Quantity = 2,
+                };
+
+                Console.WriteLine(invoice);             //Por defecto toma el método ToString()
+
             }
             catch (Exception ex)
             {
